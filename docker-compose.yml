@@ -23,7 +23,7 @@ services:
       context: .
       dockerfile: ./docker/nginx/Dockerfile
     ports:
-      - ${WEB_PORT}:80
+      - ${WEB_PORT}:88
     depends_on:
       - app
     volumes:
