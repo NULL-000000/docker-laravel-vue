@@ -8,4 +8,3 @@
     @include('articles.card')
   </div>
 @endsection
-g
