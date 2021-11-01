@@ -22,8 +22,8 @@ class PasswordResetNotification extends Notification
      */
     public function __construct()
     {
-        $this->token = $token;
-        $this->mail = $mail;
+        // $this->token = $token;
+        // $this->mail = $mail;
     }
 
     /**
