@@ -2150,14 +2150,14 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
     initialIsFollowedBy: {
       type: Boolean,
       "default": false
+    },
+    authorized: {
+      type: Boolean,
+      "default": false
+    },
+    endpoint: {
+      type: String
     }
-  },
-  authorized: {
-    type: Boolean,
-    "default": false
-  },
-  endpoint: {
-    type: String
   },
   data: function data() {
     return {
